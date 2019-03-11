@@ -109,7 +109,7 @@ namespace GradeBook.GradeBooks
 
         public virtual double GetGPA(char letterGrade, StudentType studentType)
         {
-            var gpa = 0
+            var gpa = 0;
             switch (letterGrade)
             {
                 case 'A':
